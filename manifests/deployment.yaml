@@ -19,6 +19,6 @@ spec:
         - containerPort: 8000
         env: 
         - name: CONNECTION_STRING
-          value: "Server=tcp:sql-dev-todoapp-02211.database.windows.net,1433;Initial Catalog=sqldbdb2212;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Authentication="Active Directory Default";"
+          value: "Server=tcp:sql-dev-todoapp-02211.database.windows.net,1433;Initial Catalog=sqldbdb2212;Persist Security Info=False;User ID=devopsadmin;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
           
 
